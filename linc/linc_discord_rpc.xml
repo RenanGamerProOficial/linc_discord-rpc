@@ -33,6 +33,11 @@
             <file name = "${DISCORD-RPC}/src/discord_register_linux.cpp" />
         </section>
 
+        <section if = "android">
+            <file name = "${DISCORD-RPC}/src/connection_and.cpp" />
+            <file name = "${DISCORD-RPC}/src/discord_register_and.cpp" />
+        </section>
+
     </files>
 
     <files id = "haxe">
